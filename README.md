@@ -1,21 +1,21 @@
-# 🛒 Data_cleaning_and_Exploratory_Data_Analysis
+# 🛒 Nettoyage de données et analyse exploratoire
 
-## 📌 Project Overview
+## 📌 Présentation du projet
 
-This project focuses on the analysis of an e-commerce transactions dataset using Python. The objective was to transform raw and inconsistent data into reliable business insights through a complete data analytics workflow, including data cleaning, exploratory data analysis (EDA), and data visualization.
+Ce projet porte sur l'analyse d'un jeu de données de transactions e-commerce à l'aide de Python. L'objectif était de transformer des données brutes et incohérentes en informations stratégiques fiables grâce à un flux de travail complet d'analyse de données, incluant le nettoyage, l'analyse exploratoire (EDA) et la visualisation.
 
-This project was completed as part of my internship at AnalystLab Africa.
+Ce projet a été réalisé dans le cadre de mon stage chez AnalystLab Africa.
 
 ---
 
-## 🎯 Objectives
+## 🎯 Objectifs
 
-- Assess and improve data quality.
-- Identify sales trends and customer purchasing patterns.
-- Discover top-performing products and markets.
-- Generate actionable business insights through data analysis.
+- Évaluer et améliorer la qualité des données.
+- Identifier les tendances des ventes et les habitudes d'achat des clients.
+- Identifier les produits et les marchés les plus performants.
+- Générer des informations stratégiques exploitables grâce à l'analyse des données.
 
-## 🛠️ Technologies Used
+## 🛠️ Technologies utilisées
 
 - Python
 - Pandas
@@ -24,46 +24,45 @@ This project was completed as part of my internship at AnalystLab Africa.
 - Seaborn
 - Jupyter Notebook
 
-## 🧹 Data Cleaning Process
+## 🧹 Processus de nettoyage des données
 
-### Handling Missing Values
+### Gestion des valeurs manquantes
 
-- Replaced missing `CustomerID` values with `"Unknown"`.
-- Removed records with missing product descriptions.
+- Remplacement des valeurs manquantes de `CustomerID` par « Unknown » (Inconnu).
+- Suppression des enregistrements dont la description du produit était manquante.
 
-### Duplicate Detection
+### Détection des doublons
 
-- Identified and removed duplicate transactions.
+- Identification et suppression des transactions en double.
 
-### Data Validation
+### Validation des données
 
-- Detected negative values in `Quantity` and `UnitPrice`.
-- Replaced invalid quantities using the median value calculated per product.
+- Détection de valeurs négatives pour les colonnes `Quantity` (Quantité) et `UnitPrice` (Prix unitaire).
+- Remplacement des quantités invalides par la médiane calculée pour chaque produit.
 
-### Outlier Treatment
+### Traitement des valeurs aberrantes
 
-- Applied the Interquartile Range (IQR) method.
-- Removed extreme observations likely to bias the analysis.
+- Application de la méthode de l'écart interquartile (IQR).
+- Suppression des observations extrêmes susceptibles de fausser l'analyse.
 
-## 🔍 Key Insights
+## 🔍 Principales conclusions
 
-### Top Products
+### Produits phares
 
-Decorative and seasonal products generated a significant share of total sales.
+Les articles de décoration et les produits saisonniers ont généré une part importante du chiffre d'affaires total.
 
-### Sales Seasonality
+### Saisonnalité des ventes
 
-Sales increased considerably during the last quarter of the year.
+Les ventes ont considérablement augmenté au cours du dernier trimestre de l'année.
 
-### Geographic Performance
+### Performance géographique
 
-The United Kingdom generated the largest share of revenue.
+Le Royaume-Uni a généré la plus grande part du chiffre d'affaires.
 
+## 📚 Compétences démontrées
 
-## 📚 Skills Demonstrated
-
-- Data Cleaning
-- Data Validation
-- Exploratory Data Analysis (EDA)
-- Data Visualization
-- Business Insight Generation
+- Nettoyage de données
+- Validation de données
+- Analyse exploratoire des données (EDA)
+- Visualisation de données
+- Génération d'informations stratégiques
